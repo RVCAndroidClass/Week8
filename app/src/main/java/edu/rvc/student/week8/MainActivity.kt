@@ -1,6 +1,6 @@
 package edu.rvc.student.week8
 
-//needed Imports
+//needed Import Statements
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.content.Intent
