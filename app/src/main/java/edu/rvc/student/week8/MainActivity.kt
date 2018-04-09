@@ -3,6 +3,7 @@ package edu.rvc.student.week8
 //needed Import Statements
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+//New Import
 import android.content.Intent
 import android.view.View
 import android.widget.Button
@@ -20,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         btngo.setOnClickListener(View.OnClickListener {
             //Intent is used to send data between activities
             val intent = Intent(this, Main2Activity::class.java)
-            //putExtra sets value to name SendStuff
+            //putExtra sets value to name SendStuff (Could be called whatever you want
             intent.putExtra("SendStuff",txtsend.text.toString())
             //Go to second activity
             startActivity(intent)
@@ -28,4 +29,5 @@ class MainActivity : AppCompatActivity() {
         })
 
     }
+
 }

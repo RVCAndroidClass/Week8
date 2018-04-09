@@ -9,9 +9,11 @@
 
     <Button
         android:id="@+id/btnPage2"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="231dp"
+        android:layout_marginBottom="414dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
         android:text="Page2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -20,16 +22,17 @@
 
     <EditText
         android:id="@+id/txtSend"
-        android:layout_width="323dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="92dp"
-        android:layout_marginTop="96dp"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
         android:ems="10"
         android:hint="Enter String"
         android:inputType="textPersonName"
+        android:textSize="25sp"
         app:layout_constraintBottom_toTopOf="@+id/btnPage2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
